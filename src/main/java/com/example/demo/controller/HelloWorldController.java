@@ -43,4 +43,10 @@ public class HelloWorldController {
 	public void cleanPruebaTable() {
 		pruebaService.clean();
 	}
+	
+    @GetMapping("/test")
+    public String test(){
+        return "TODO OK";
+    }
+
 }
